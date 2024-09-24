@@ -1,14 +1,14 @@
-if SHIELD_TABULA_LEFT
+if SHIELD_NODE_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Tabula"
+    default "Node"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_TABULA_LEFT || SHIELD_TABULA_RIGHT
+if SHIELD_NODE_LEFT || SHIELD_NODE_RIGHT
 
 config ZMK_SPLIT
     default y

@@ -1,5 +1,0 @@
-config SHIELD_TABULA_LEFT
-    def_bool $(shields_list_contains,tabula_left)
-
-config SHIELD_TABULA_RIGHT
-    def_bool $(shields_list_contains,tabula_right)
